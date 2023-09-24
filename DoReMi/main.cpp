@@ -22,7 +22,7 @@ int main(){
     string newc;
     string keys = "CDEFGAB";
     for(char let: keys){
-        newc += (let + (key-'C'))%7 + 'A';
+        newc += (let + (key-'C')-2)%7 + 'A';
     }
     cout << keys << endl;
     for(char let: code){
