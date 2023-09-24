@@ -26,8 +26,8 @@ int main(){
     }
     cout << keys << endl;
     for(char let: code){
-        for(int i = 0; i < keys.size(); i++){
-            if(keys[i] == let){
+        for(int i = 0; i < newc.size(); i++){
+            if(newc[i] == let){
                 cout << DRM[i] << " ";
             }
         }
