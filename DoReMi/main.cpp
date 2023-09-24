@@ -24,7 +24,7 @@ int main(){
     for(char let: keys){
         newc += (let + (key-'C')-2)%7 + 'A';
     }
-    cout << keys << endl;
+    
     for(char let: code){
         for(int i = 0; i < newc.size(); i++){
             if(newc[i] == let){
